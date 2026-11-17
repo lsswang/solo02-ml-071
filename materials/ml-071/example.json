@@ -1,0 +1,134 @@
+{
+  "weights": [
+    0.6666666666666666,
+    0.3333333333333333
+  ],
+  "words": [
+    [
+      0.8,
+      0.1,
+      0.1
+    ],
+    [
+      0.1,
+      0.8,
+      0.1
+    ]
+  ],
+  "records": [
+    {
+      "total": 2,
+      "counts": [
+        1,
+        null,
+        null
+      ],
+      "weight": 1
+    }
+  ],
+  "passages": {
+    "before": [
+      1,
+      0,
+      0
+    ],
+    "after": [
+      0,
+      1,
+      0
+    ],
+    "b": [
+      0,
+      1,
+      0
+    ],
+    "c": [
+      null,
+      null,
+      null
+    ]
+  },
+  "testlets": [
+    {
+      "id": "A",
+      "passage": "a",
+      "questions": 2,
+      "minutes": 1
+    },
+    {
+      "id": "B",
+      "passage": "b",
+      "questions": 1,
+      "minutes": 1
+    },
+    {
+      "id": "C",
+      "passage": "c",
+      "questions": 1,
+      "minutes": 1
+    }
+  ],
+  "budget": 2,
+  "needed": [
+    1,
+    1
+  ],
+  "training": {
+    "initial_a": [
+      0.2,
+      -0.2
+    ],
+    "initial_b": [
+      [
+        0.4,
+        -0.3,
+        0.1
+      ],
+      [
+        -0.2,
+        0.5,
+        -0.1
+      ]
+    ],
+    "ridge": 0.2,
+    "max_iter": 1000,
+    "records": [
+      {
+        "total": 2,
+        "counts": [
+          2,
+          0,
+          0
+        ],
+        "weight": 10
+      },
+      {
+        "total": 2,
+        "counts": [
+          0,
+          2,
+          0
+        ],
+        "weight": 6
+      },
+      {
+        "total": 2,
+        "counts": [
+          1,
+          null,
+          null
+        ],
+        "weight": 3
+      },
+      {
+        "total": 0,
+        "counts": [
+          null,
+          null,
+          null
+        ],
+        "weight": 1
+      }
+    ]
+  }
+}
